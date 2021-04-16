@@ -1,0 +1,48 @@
+body{
+    font-family: 'Open Sans Condensed';
+    background-color: #0A122A;
+}
+
+section{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 15px;
+}
+
+header{
+    background-image: url('https://i.pinimg.com/originals/0b/a3/d6/0ba3d60362c7e6d256cfc1f37156bad9.jpg');
+    background-size:cover;
+    height: 80px;
+    border-radius: 10px;
+}
+
+section h1 {
+    font-size: 25px;
+    margin-left: 160px;
+    
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+div{
+   
+    border: 1px solid #142252;
+    background-color: #e7decd; 
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 100%;
+    border: 3px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-66px);
+}

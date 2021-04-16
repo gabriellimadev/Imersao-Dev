@@ -1,0 +1,132 @@
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Helvetica', serif;
+    min-height: 400px;
+    background-color: #050533;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#icon-player {
+    border: thin;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#button-add {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 22px;
+    background-color: lightgreen;
+    width:130px ;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 1350px;
+    border: none;
+    box-shadow: 2px 2px darkgreen;
+    cursor: pointer;
+}
+
+#button-delete {
+    font-family: monospace;
+    font-size: 18px;
+    color: ivory;
+    background-color: black;
+    width:100px ;
+    padding: 5px;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+#button-win {
+    font-family: "Sudo";
+    font-size: 18px;
+    background-color: limegreen;
+    width:100px ;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#button-loss {
+    font-family: "Sudo";
+    font-size: 18px;
+    background-color: crimson;
+    width:100px ;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#button-draw {
+    font-family: "Sudo";
+    font-size: 18px;
+    background-color: yellow;
+    width:100px ;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+th {
+    font-family: "Sudo";
+    font-size: 16px;
+    border: solid 1px #0D698B;
+    color: white;
+    background-color: #0D698B; 
+} 
+
+  tr, td {
+    font-family: "Sudo";
+    font-size: 22px;
+    border: solid 4px #0D698B;
+    color: white;
+    background-color: #1616FF; 
+    }
